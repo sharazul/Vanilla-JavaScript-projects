@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F1f5f8;
+}
+.nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: #bacbe6;
+    align-items: center;
+    border-top: 1px solid black;
+}
+.nav h1{
+    font-size: 20px;
+    font-family: "Lucida Sans";
+    color: #0a53be;
+}
+#bar{
+    display: flex;
+}
+#bar li{
+    list-style: none;
+    margin-right: 20px;
+}
+#bar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lucida Sans";
+    font-weight: bold;
+    color: black;
+}
+#bar a:hover{
+    color: blue;
+}
+.container{
+    background: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+}
+.container h2{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Lucida Sans";
+    letter-spacing: 5px;
+    line-height: 1.25;
+}
+.color {
+    color: blue;
+}
+.btn{
+    background: transparent;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-65%,-50%);
+    border: 2px solid black;
+    font-size: 1rem;
+    font-family: "Lucida Sans";
+    letter-spacing: 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+.btn:hover{
+    background: black;
+    color: white;
+}
